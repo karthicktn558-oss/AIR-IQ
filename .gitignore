@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local data and generated outputs (keep the directory structure)
+data/raw/*
+!data/raw/.gitkeep
+data/cleaned/*
+!data/cleaned/.gitkeep
+visualizations/*
+!visualizations/.gitkeep
+
+# Notebook and Streamlit local state
+.ipynb_checkpoints/
+.streamlit/secrets.toml
